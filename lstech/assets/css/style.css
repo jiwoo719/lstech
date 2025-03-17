@@ -1,52 +1,248 @@
 
 /* header */
-.nav{
-    display: flex;
-    width: 1420px;
-    height: 90px;
-    margin: 0 auto;
+.body{
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
-.gnb>ul{
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1420px;
+    margin: 0 auto;
 }
-.gnb a{
+.nav a{
     font-size: 20px;
     color: #222;
     text-decoration: none;
     font-weight: 600;
-    padding: 10px;
     position: relative;
-    top: 37px;
+}
+.gnb ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+}
+.gnb li{
+    padding: 30px 50px;
 }
 .logo-img{
     width: 90px;
-    margin-top: 37px;
 }
-.gnb li{
-    margin-left: 77px;
-}
-.language{
+.language ul{
     width: 135px;
     height: 35px;
     display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
     border: 1px solid #222;
     border-radius: 20px;
-    margin-top: 37px;
 }
 .language a{
     font-size: 20px;
     color: #222;
-    text-decoration: none;
     font-weight: 600;
     text-align: center;
+    padding-left: 25px;
 }
 .nav-icon{
     width: 20px;
+    padding-right: 25px;
 }
 .banner{
     width: 1920px;
     height: 780px;
     background: url('../images/icon/img1.png');
+}
+.banner h1{
+    color: #fff;
+    font-size: 62px;
+    font-weight: 700;
+    position: absolute;
+    left: 204px;
+    bottom: 100px;
+}
+.column{
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.column-6{
+    margin-top: 154px;
+}
+.content-text h1{
+    width: 289px;
+    color: #0A2240;
+    font-size: 62px;
+    font-weight: 700;
+}
+.content-text p{
+    width: 580px;
+    color: #666;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+.content-img{
+    width: 700px;
+    height: 440px;
+    border-radius: 30px;
+}
+.content-box{
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 88px;
+}
+.bg1{
+    background: url('../images/icon/con2-1.png');
+    width: 474px;
+    height: 322px;
+    position: relative;
+}
+.bg2{
+    background: url('../images/icon/con2-2.png');
+    width: 474px;
+    height: 322px;
+}
+.bg3{
+    background: url('../images/icon/con2-3.png');
+    width: 474px;
+    height: 322px;
+}
+.content-box p{
+    width: 400px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 27px;
+    margin-top: 64px;
+}
+.content-box img{
+    width: 198px;
+    height: 47px;
+    margin-left: 27px;
+    margin-top: 39px;
+}
+.content2{
+    width: 1387px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content2 h1{
+    font-size: 62px;
+    font-weight: 700;
+}
+.content2-a{
+    width: 670px;
+    margin-top: 182px;
+}
+.content2-b{
+    width: 670px;
+    margin-top: 182px;
+}
+.a-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.a-flex img{
+    width: 30px;
+    height: 30px;
+}
+.content2-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.content2 t-left{
+    font-size: 20px;
+    color: #231F20;
+}
+.content2 t-right{
+    font-size: 20px;
+    color: #666;
+    margin-top: 22px;
+}
+.content3{
+    width: 1387px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 193px;
+}
+.content3-a-text h1{
+    font-size: 62px;
+    font-weight: 700;
+    color: #0A2240;
+}
+.content3-a-text p{
+    width: 419px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #666;
+    margin-top: 22px;
+}
+.content3-b{
+    width: 700px;
+}
+.btn{
+    width: 340px;
+    height: 64px;
+    text-align: left;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 10px;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+}
+.icon2{
+    width: 19px;
+    height: 7px;
+}
+.footbg{
+    width: 1920px;
+    height: 257px;
+    background-color: #06061F;
+    margin-top: 217px;
+}
+.foot-list ul{
+    list-style: none;
+    color: #fff;
+    width: 504px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 276px;
+    top: 65px;
+}
+.foot p{
+    color: #fff;
+}
+.foot-1{
+    font-size: 24px;
+    position: relative;
+    top: 43px;
+    left: 276px;
+    color: #fff;
+}
+.foot-2{
+    font-size: 16px;
+    position: relative;
+    top: 100px;
+    left: 276px;
+}
+.foot-3{
+    font-size: 16px;
+    position: relative;
+    left: 276px;
+    bottom: -110px;
 }
